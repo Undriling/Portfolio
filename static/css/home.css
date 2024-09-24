@@ -1,0 +1,82 @@
+
+    /* Dark theme styles go here */
+body{
+    background-image: url("{{ url_for('static', filename='C:\Users\Manash\OneDrive\Desktop\Projects\My Web\static\background.jpg') }}");
+    background-size: cover;        /* Ensures the image covers the entire page */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    height: 100vh;                 /* Ensures the background covers the full viewport height */
+    margin: 0;                     /* Removes default margin */
+    width: 100%;
+    /* font-family: Arial, sans-serif; Example styling for text */
+    /* color: white;                  Text color (optional for contrast with background) */
+}
+
+h1{
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin-bottom: 6px;
+    /* margin-top: px; */
+    width: 100%;
+}
+/* To round the banner shape */
+/* Id specifies with ( # ) */
+/* Class specifies with ( . ) */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh; /* Center vertically */
+}
+
+.round-image {
+    width: 450px; /* Width of the image */
+    height: 450px; /* Height of the image */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+    border: 3px solid #ddd; /* Optional: Adds a border around the image */
+}
+
+h2{
+    font-style:Cascadia;
+    font-size: 30px;
+    text-align: center;
+    font-family: Roboto;
+    margin-bottom: 16px;
+    margin-top: 6px;
+    width: 100%;
+}
+        
+/* Paragraph styling */
+#para{
+    font-weight: normal;
+    font-family: Roboto;
+    color: black;
+    width: 100%;
+}
+
+#margin{
+    max-width: 720px;
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+
+#button{
+    border-top: 4px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* Copyright */
+#c_right{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom: 10px; */
+    width: 100%;
+}

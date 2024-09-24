@@ -1,0 +1,16 @@
+<div class="border-bottom row" style="margin-bottom: 20px;padding-bottom: 4px ;">
+    <div class="col-9">
+        <h4 style="margin-bottom: 6px;">{{project["title"]}}</h4>
+        {% if 'lang' in project %}
+        <div>
+            <b>Lanaguage Use: </b>{{project['lang']}}
+        </div>
+        {% endif %}
+    </div>
+    <div class="col-3">
+        <a class="btn btn-primary" href="https://github.com/Undriling?tab=repositories" role="button">Link</a>
+    </div>
+    <!-- <div class="col-3">
+        <button type="button" class="btn btn-info">Info</button>
+    </div> -->
+</div>
