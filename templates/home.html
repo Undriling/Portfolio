@@ -56,15 +56,7 @@
         <div id="para">
             <!-- {{projects}} -->
             {% for project in projects %} 
-                <!-- <div style="margin-bottom: 20px;">
-                    <h4 style="margin-bottom: 6px;">{{project["title"]}}</h4>
-                    {% if 'lang' in project %}
-                    <div>
-                        <b>Lanaguage Use: </b>{{project['lang']}}
-                    </div>
-                    {% endif %}
-                </div> -->
-                <!-- projects ka alag file hai -->
+                <!-- projects have different files -->
 
                 {% include 'projectitem.html' %}
             {% endfor %}
@@ -83,8 +75,7 @@
         <div id="button">
             <button type="button" class="btn btn-dark">Contact</button>
             <!-- <button type="button" class="btn btn-dark" href="https://www.gmail.com/compose/undrilingquarter@gmail.com">Enquiry</button> -->
-            <!-- <a class="btn btn-dark" href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQXJGsbZwbSZnMpgCXMVHHJSkTg?compose=undrilingquarter@gmail.com" role="button">Enquiry</a> -->
-            <a class="btn btn-dark" href="mailto:undrilingquarter@gmail.com" target="_blank" role="button">Enquiry</a>
+            <a class="btn btn-dark" target="_blank" href="mailto:undrilingquarter@gmail.com" target="_blank" role="button">Enquiry</a>
         </div>
         
         <footer>
@@ -93,22 +84,3 @@
             
     </body>
 </html>
-
-
-
-
-<!-- <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
-
-    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-    </a>
-
-    <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-    </ul>
-  </footer> -->
