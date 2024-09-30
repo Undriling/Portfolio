@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENQUIRY FORM</title>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/form1.css') }}"> -->
+    <style>
+
+        h1, h5{
+            text-align: center;
+        }
+        .menu{
+            background-color: silver;
+            width: 100%;
+        }
+        .item{
+            display: block;
+            margin: 12px 0;
+        }
+        .names{
+            text-align: left;
+            width: 70%;
+        }
+        .box{
+            /* text-align: right; */
+            width: 30%;
+            padding: 8px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <main>
+            <form action="">
+                <h1 style="text-align: center;">ENQUIRY FORM</h1>
+                <h5 style="text-align: center;">If you have any enquiry kindly take a moment to fill out this. Thank You...</h5>
+                <div style="text-align: center; border: 10px;">
+                    <label class="item">
+                        Name :- <input class="box" type="text" name="name" placeholder="Enter Your Name">
+                    </label>
+                    <label class="item">
+                        Phone :- <input class="box" type="number" name="name" placeholder="Enter Your Phone Number">
+                    </label>
+                    <label class="item">
+                        Email :- <input class="box" type="text" name="name" placeholder="Enter Your Email Id">
+                    </label>
+                    <label class="item">
+                        Enquiry :- <input class="box" style="padding-bottom: 10px;" type="text" name="name" placeholder="Your Queries">
+                    </label>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

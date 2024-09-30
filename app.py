@@ -3,12 +3,12 @@ from flask import Flask,render_template,jsonify
 PROJECTS=[
     {
         "id": 1,
-        "title": "Password Manager",
-        "lang": "Python"
+        "title": "Portfolio",
+        "lang": "HTML5, CSS3, Bootstrap, Python, Flask"
     },
     {
         "id": 2,
-        "title": "Quiz Management System like KBC",
+        "title": "Password Manager",
         "lang": "Python"
     },
     {
@@ -18,6 +18,11 @@ PROJECTS=[
     },
     {
         "id": 4,
+        "title": "Quiz Management System like KBC",
+        "lang": "Python"
+    },
+    {
+        "id": 5,
         "title": "Rent Calculator",
         "lang": "Python"
     }
@@ -29,7 +34,7 @@ SOCIALS=[
         "id": 1,
         "title": "Linkdin",
         "link": "https://www.linkedin.com/in/manash-baruah-mb",
-        "bt_icon": "  .in  "
+        "bt_icon": ".in"
     },
     {
         "id": 2,
