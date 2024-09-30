@@ -11,7 +11,10 @@
     rel="stylesheet"/>
 </head>
 <body>
-    {% include 'nav.html' %}
+    <nav>
+        {% include 'nav.html' %}
+    </nav>
+
     <div id="fakeHeader"></div>
     <div id="margin">
         <h1>Manash Baruah</h1>
@@ -19,22 +22,24 @@
         <div class="container">
             <img id="banner" src="http://127.0.0.1:5000/static/profilepic.jpg" class="round-image" alt="">
         </div>
-        
+    </div>
+    <div id="about">
         <h2>About</h2>
         <p id="para">I am a motivated Computer Science student with a passion for transforming data into actionable insights. My journey has equipped me with a solid foundation in Python, Flask, HTML, CSS, Bootstrap and Data Structures and Algorithms (DSA). Currently, I am expanding my expertise in Javascript and My SQL , where I focus on advanced development and database management.
 
             Driven by a relentless curiosity and a commitment to continuous learning, I am always exploring new technologies and methodologies to enhance my skill set. I am enthusiastic about applying my knowledge to real-world challenges and contributing to innovative solutions.
             
             <br> Let's connect to discuss potential collaborations or share insights on the evolving landscape of technology...</p>
-        
-            <h2>Education</h2>
-            <p><b>B.Tech CSE</b> <br>
+    </div>
+    <div id="edu">    
+        <h2>Education</h2>
+        <p><b>B.Tech CSE</b> <br>
             NIMS University,Jaipur <br>
             2021-2025
-            <div>
-                <a>
-                    <img src="\static\certification.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                    <b>Cerifications :-</b>
+        <div>
+            <a>
+                <img src="\static\certification.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <b>Cerifications :-</b>
                     <details>
                         <summary>Frontend Development</summary><br>
                         <p>A skilled front-end developer with expertise in HTML, CSS, and Bootstrap, crafting responsive and visually
@@ -60,7 +65,8 @@
                         </p>
                     </details>
                 </a>
-            </div>
+        </div>
+    </div>
         
 
         <!-- </p>
