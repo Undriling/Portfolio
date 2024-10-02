@@ -7,22 +7,27 @@ PROJECTS=[
         "lang": "HTML5, CSS3, Bootstrap, Python, Flask"
     },
     {
-        "id": 2,
+        "id": 2 ,
+        "title": "Salesfoece UI Clone",
+        "lang": "HTML5, CSS3"
+    },
+    {
+        "id": 3,
         "title": "Password Manager",
         "lang": "Python"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Multi App friendly QR Code Generator",
         "lang": "Python"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Quiz Management System like KBC",
         "lang": "Python"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Rent Calculator",
         "lang": "Python"
     }
@@ -40,7 +45,7 @@ SOCIALS=[
         "id": 2,
         "title": "Github",
         "link": "https://github.com/Undriling",
-        "bt_icon": "git"
+        "bt_icon": "git",
     },
     {
         "id": 3,
