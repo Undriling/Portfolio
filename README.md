@@ -32,4 +32,4 @@ Follow these instructions to set up and run the project locally (for windows).
  - Go to http://127.0.0.1:5000/ in your browser to view the portfolio locally.
 
 # Deployment :-
- - The portfolio is deployed on Render.com. , Which is suitable for Flask based app .
+ - This portfolio website is deployed with Render.com. , Which is suitable for Flask based web app .
