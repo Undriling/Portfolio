@@ -18,14 +18,14 @@ Social Profiles :-
   
 Getting Started :-
 Follow these instructions to set up and run the project locally.
-@ Create a virtual environment:-
-   # python -m venv venv
-@ Activate the virtual environment:- (for windows)
-   # venv\Scripts\activate
-@ Install the required dependencies:-
-   # pip install -r requirements.txt
-@ Run the Flask app:- 
-   # python app.py
+# Create a virtual environment:-
+   @ python -m venv venv
+# Activate the virtual environment:- (for windows)
+   @ venv\Scripts\activate
+# Install the required dependencies:-
+   @ pip install -r requirements.txt
+# Run the Flask app:- 
+   @ python app.py
 
 # Open the application:- Go to http://127.0.0.1:5000/ in your browser to view the portfolio locally.
 
