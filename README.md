@@ -16,7 +16,7 @@ Social Profiles :-
 - The links to my social media profiles are fetched from the backend.
 - Projects: My portfolio projects, along with descriptions and links, are stored in the backend and served via Flask.
   
-#Getting Started :-
+# Getting Started :-
 Follow these instructions to set up and run the project locally (for windows).
 
 - Create a virtual environment:-
