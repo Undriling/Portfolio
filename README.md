@@ -1,4 +1,4 @@
-Personal Portfolio
+# Personal Portfolio
 - This repository contains the source code for my personal portfolio, built using HTML5, CSS3, Bootstrap, Python, and Flask. The portfolio showcases my skills, projects, and social profiles, dynamically fetching data from the backend.
 
 # Features
