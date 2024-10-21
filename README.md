@@ -8,7 +8,7 @@ The frontend is built with modern web technologies such as:
 - HTML5 for the structure.
 - CSS3 for styling and layout customization.
 - Bootstrap for responsive design and ease of use.
-- 
+  
 Backend :-
 - The backend is powered by Python and Flask. It dynamically serves the content of:
 
@@ -18,6 +18,7 @@ Social Profiles :-
   
 Getting Started :-
 Follow these instructions to set up and run the project locally.
+
 # Create a virtual environment:-
    @ python -m venv venv
 # Activate the virtual environment:- (for windows)
@@ -27,6 +28,8 @@ Follow these instructions to set up and run the project locally.
 # Run the Flask app:- 
    @ python app.py
 
-# Open the application:- Go to http://127.0.0.1:5000/ in your browser to view the portfolio locally.
+# Open the application:- 
+ - Go to http://127.0.0.1:5000/ in your browser to view the portfolio locally.
 
-# Deployment :- The portfolio is deployed on Render.com. , Which is suitable for Flask based app .
+# Deployment :-
+ - The portfolio is deployed on Render.com. , Which is suitable for Flask based app .
