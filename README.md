@@ -1,6 +1,8 @@
 # Personal Portfolio
 - This repository contains the source code for my personal portfolio, built using HTML5, CSS3, Bootstrap, Python, and Flask. The portfolio showcases my skills, projects, and social profiles, dynamically fetching data from the backend.
 
+Live URL- https://manash-baruah-portfolio.onrender.com/
+
 # Features
 Frontend :-
 
