@@ -4,32 +4,44 @@ PROJECTS=[
     {
         "id": 1,
         "title": "Portfolio",
-        "lang": "HTML5, CSS3, Bootstrap, Python, Flask"
+        "lang": "HTML5, CSS3, Bootstrap, Python, Flask",
+        "link": "https://github.com/Undriling/Portfolio"
     },
     {
-        "id": 2 ,
-        "title": "Salesfoece UI Clone",
-        "lang": "HTML5, CSS3"
+        "id": 2,
+        "title": "IBC-A Latest News Update Web Application",
+        "lang": "HTML5, CSS3, Bootstrap, JavaScript",
+        "link": "https://github.com/Undriling/IBC-Latest-News-Updates-Website"
     },
     {
         "id": 3,
-        "title": "Password Manager",
-        "lang": "Python"
+        "title": "Latest Weather Forecast Web Application",
+        "lang": "HTML5, CSS3, JavaScript",
+        "link": "https://github.com/Undriling/Weather-App"
     },
     {
         "id": 4,
-        "title": "Multi App friendly QR Code Generator",
-        "lang": "Python"
+        "title": "Salesfoece UI Clone",
+        "lang": "HTML5, CSS3",
+        "link": "https://github.com/Undriling/Salesforce-Clone-UI"
     },
     {
         "id": 5,
-        "title": "Quiz Management System like KBC",
-        "lang": "Python"
+        "title": "Password Manager",
+        "lang": "Python",
+        "link": "https://github.com/Undriling/Password-Manager"
     },
     {
         "id": 6,
-        "title": "Rent Calculator",
-        "lang": "Python"
+        "title": "Multi App friendly QR Code Generator",
+        "lang": "Python",
+        "link": "https://github.com/Undriling/Multi-app-friendly-UPI-QR-Code-Generator-With-Setting-an-Amount"
+    },
+    {
+        "id": 7,
+        "title": "Quiz Management System like KBC",
+        "lang": "Python",
+        "link": "https://github.com/Undriling/Quize-Management-System-Like-KBC"
     }
 ]
 
