@@ -21,24 +21,30 @@ PROJECTS=[
     },
     {
         "id": 4,
+        "title": "Calculator",
+        "lang": "JavaScript",
+        "link": "https://github.com/Undriling/Calculator"
+    },
+    {
+        "id": 5,
         "title": "Salesfoece UI Clone",
         "lang": "HTML5, CSS3",
         "link": "https://github.com/Undriling/Salesforce-Clone-UI"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Password Manager",
         "lang": "Python",
         "link": "https://github.com/Undriling/Password-Manager"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Multi App friendly QR Code Generator",
         "lang": "Python",
         "link": "https://github.com/Undriling/Multi-app-friendly-UPI-QR-Code-Generator-With-Setting-an-Amount"
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Quiz Management System like KBC",
         "lang": "Python",
         "link": "https://github.com/Undriling/Quize-Management-System-Like-KBC"
@@ -63,7 +69,7 @@ SOCIALS=[
         "id": 3,
         "title": "Twitter",
         "link": "https://x.com/ManashBaruah22",
-        "bt_icon": "  X  "
+        "bt_icon": "  𝕏  "
     }
 ]
 
